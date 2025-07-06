@@ -13,10 +13,10 @@ int main() {
     while (true) {
         // Set the pin HIGH (turn LED on)
         gpio_put(LED_PIN, 1);
-        sleep_ms(500);
+        sleep_ms(200);
 
         // Set the pin LOW (turn LED off)
         gpio_put(LED_PIN, 0);
-        sleep_ms(500);
+        sleep_ms(200);
     }
 }
